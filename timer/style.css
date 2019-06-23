@@ -1,0 +1,58 @@
+body {
+background: #fff;
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+height:100%;
+font-family: 'Roboto', sans-serif;
+}
+
+.background-image {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.wrapper {
+width: 800px;
+margin: 30px auto;
+color:#fff;
+text-align:center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+#days{
+  font-size:6em;
+  font-weight: 700;
+}
+
+#seconds, #tens, #hours, #minutes{
+  font-size:2em;
+}
+
+button{
+background: #3706c0;
+color: #fff;
+border: solid 1px #fff;
+text-decoration:none;
+cursor:pointer;
+font-size:1.2em;
+padding:18px 10px;
+width:180px;
+margin: 10px;
+ outline: none;
+ font-weight: bold;
+}
+  button:hover{
+	background: #fff;
+	border: solid 1px #fff;
+	color: #3706c0;
+	}
