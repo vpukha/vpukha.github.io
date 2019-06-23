@@ -1,4 +1,5 @@
-var lastDate = new Date("06/22/2019 12:00:00").getTime();
+//Время мм.дд.год время
+var lastDate = new Date("06/22/2019 18:00:00").getTime();
 
 var timer = setInterval(function() {
 
